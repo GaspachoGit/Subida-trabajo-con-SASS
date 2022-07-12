@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500;700&display=swap");
+.bg-darkGray {
+  background-color: #545454; }
+
+.bg-darkGreen {
+  background-color: rgba(54, 89, 1, 0.95); }
+
+.bg-soDarkGreen {
+  background-color: #172600; }
+
+h1 {
+  background-color: #596208;
+  border-radius: 8px;
+  display: inline-block;
+  color: #ecf2c1;
+  padding: 0.3rem; }
+
+.card-title {
+  color: #ecf2c1; }
+
+.card-text {
+  color: #ecf2c1;
+  font-size: 1.5rem; }
+
+.card-border {
+  border-radius: 10px; }
+
+label, input {
+  font-size: 1.1rem; }
+
+.form-label {
+  background-color: #ecf2c1;
+  border-radius: 8px; }
+
+.btn-green {
+  background-color: rgba(54, 89, 1, 0.95);
+  color: #ecf2c1; }
+  .btn-green:hover {
+    background-color: #ecf2c1; }
+
+@media (max-width: 992px) {
+  .texto {
+    font-size: 1rem; } }
+
+body {
+  background-color: #ecf2c1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%; }
+
+iframe {
+  height: 25rem; }
+
+h2, h3 {
+  color: #365901; }
+
+.w-98 {
+  width: 98%; }
+
+.bg-darkGray {
+  background-color: #545454; }
+
+.bg-darkGreen {
+  background-color: rgba(54, 89, 1, 0.95); }
+
+.bg-soDarkGreen {
+  background-color: #172600; }
+
+.img-footer {
+  width: 120px; }
+  @media (min-width: 215px) and (max-width: 400px) {
+    .img-footer {
+      width: 70px; } }
+
+nav img {
+  width: 200px; }
+  @media (min-width: 215px) and (max-width: 350px) {
+    nav img {
+      width: 140px; } }
+
+nav ul li {
+  font-size: 1.5rem; }
+  nav ul li a {
+    color: #78A614 !important; }

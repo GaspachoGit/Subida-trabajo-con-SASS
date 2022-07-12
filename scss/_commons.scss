@@ -1,0 +1,26 @@
+//comunes
+body{
+    background-color: $backgrundC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+iframe{
+    height: 25rem;
+}
+h2,h3{
+    color: rgba(54, 89, 1, 1);
+}
+.w-98{
+    width: 98%;
+}
+.bg-darkGray{
+    background-color: $footerGray;
+}
+
+.bg-darkGreen{
+    background-color: $darkGreen ;
+}
+
+.bg-soDarkGreen{
+    background-color: $soDarkGreen;
+}
