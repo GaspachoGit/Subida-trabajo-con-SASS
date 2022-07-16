@@ -25,6 +25,11 @@ h1 {
 .card-border {
   border-radius: 10px; }
 
+.cardList {
+  color: #ecf2c1;
+  font-size: 1.2rem;
+  text-align: left; }
+
 label, input {
   font-size: 1.1rem; }
 
