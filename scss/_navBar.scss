@@ -9,7 +9,7 @@ nav{
         li{
             font-size: $navBut;
             a{
-                color: $fontNav !important;
+                color: map-get($map: $paleta, $key:"fontNav") !important;
             }
         }
     }

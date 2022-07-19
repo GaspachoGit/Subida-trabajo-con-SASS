@@ -37,12 +37,6 @@ label, input {
   background-color: #ecf2c1;
   border-radius: 8px; }
 
-.btn-green {
-  background-color: rgba(54, 89, 1, 0.95);
-  color: #ecf2c1; }
-  .btn-green:hover {
-    background-color: #ecf2c1; }
-
 @media (max-width: 992px) {
   .texto {
     font-size: 1rem; } }
@@ -90,3 +84,27 @@ nav ul li {
   font-size: 1.5rem; }
   nav ul li a {
     color: #78A614 !important; }
+
+.btn-green, .botonCompra {
+  background-color: rgba(54, 89, 1, 0.95);
+  color: #ecf2c1; }
+  .btn-green:hover, .botonCompra:hover {
+    background-color: #ecf2c1; }
+
+.botonCompra {
+  background-color: #78A614;
+  padding: 15px;
+  color: #151515;
+  font-size: 1.3rem; }
+  .botonCompra:hover {
+    background-color: #d20d0d;
+    color: #ecf2c1 !important;
+    font-size: 1.3rem;
+    transition-duration: 150ms; }
+  @media (max-width: 992px) {
+    .botonCompra {
+      padding: 0; }
+      .botonCompra:active {
+        background-color: #d20d0d;
+        color: #ecf2c1 !important;
+        transition-duration: 150ms; } }
